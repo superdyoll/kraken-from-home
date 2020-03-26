@@ -1,16 +1,116 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <title>Kraken Leaderboard</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="kraken.css">
 </head>
 <body>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-3">Kraken@Home</h1>
+        <p class="lead">The competition is on!</p>
+        <hr class="my-2">
+        <p>This is the leaderboard for the Kraken <b>SCOUTMASTER</b> challenges. Every week this will be updated with
+            the
+            latest scores</p>
+    </div>
+</div>
 <div class="container">
-<div class="row">
-<div class="col">
-<h1>Test</h1>
+    <div class="row">
+        <div class="col">
+            <h1>This weeks challenges</h1>
+            <hr/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card-deck">
+            <div class="card activity">
+                <div class="card-header">
+                    <h3>Activity</h3>
+                </div>
+                <img class="card-img-top" src="run.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Run the Fleur-de-lis</h4>
+                    <p class="card-text">Use your favourite run/cycling/walking tracking app to draw a fleur-de-lis.
+                        <br/>
+                        <b>Get outside.</b>
+                        <br/>
+                        Use your one exercise per day to challenge yourself to draw something.
+                        The better the fleur-de-lis the more points you'll get.
+                        You don't have to do it at any particular speed so you can choose if you want to run, walk
+                        or cycle!</p>
+                </div>
+            </div>
+            <div class="card challenge">
+                <div class="card-header">
+                    <h3>Challenge</h3>
+                </div>
+                <img class="card-img-top" src="Jester_Hat.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">April Fools</h4>
+                    <p class="card-text">Play a kind April fools joke on one of your household. Don't be mean to them
+                        though. Just some lighthearted fun. The more the video or photo of your prank makes us laugh the
+                        more points you get!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <br />
+            <h1>How to submit</h1>
+            <hr />
+            <p>To submit your photos or videos you can either send them to our instagram <a
+                    href="//www.instagram.com/southamptonnesu">@krakenesu</a>, our facebook group <a
+                    href="//www.facebook.com/groups/1584069101848386/">krakenesu</a>, our facebook page with a DM <a
+                    href="https://www.facebook.com/KrakenESU/">krakensu</a> or you can email them to
+                <a href="mailto:kraken@southamptoncityscouts.org.uk">kraken@southamptoncityscouts.org.uk</a></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <br/>
+            <h1>The Leaderboard</h1>
+            <hr/>
+            <table class="table table-striped">
+                <thead class="thead-inverse">
+                <tr>
+                    <th>Name</th>
+                    <th>Points</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td scope="row">Lloyd</td>
+                    <td>1000000</td>
+                </tr>
+                <tr>
+                    <td scope="row">Ollie</td>
+                    <td>-5</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
-</div>
-</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
 </html>

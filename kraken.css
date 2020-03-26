@@ -1,0 +1,28 @@
+.jumbotron {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.jumbotron hr{
+    border-color: white;
+}
+
+.activity {
+    color: white;
+}
+
+.activity .card-header{
+    background-color:orange;
+}
+
+.activity .card-body {
+    background-color: orange;
+}
+
+.challenge {
+    color: white;
+}
+
+.challenge .card-header,.card-body{
+    background-color: rebeccapurple;
+}
