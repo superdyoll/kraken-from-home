@@ -1,5 +1,13 @@
+body {
+    font-family: 'Nunito Sans', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+}
+
 .jumbotron {
-    background-color: rebeccapurple;
+    background-color: #7413dc;
     color: white;
 }
 
@@ -7,22 +15,23 @@
     border-color: white;
 }
 
-.activity {
+.activity, .challenge{
     color: white;
 }
 
-.activity .card-header{
-    background-color:orange;
+.activity .card-header, .activity .card-body{
+    background-color:#ff7600;
 }
 
-.activity .card-body {
-    background-color: orange;
+.challenge .card-header, .challenge .card-body{
+    background-color: #7413dc;
 }
 
-.challenge {
-    color: white;
+.activity img, .challenge img {
+    height: 400px;
+    object-fit: cover;
 }
 
-.challenge .card-header,.card-body{
-    background-color: rebeccapurple;
+.scout-logo {
+    width: 30%;
 }
